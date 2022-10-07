@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  
+<body>
+    <style>
+        h1 {
+            color: green;
+        }
+    </style>
+  
+    <h1>UNDEFINED OR NOT.</h1>
+  
+    <button onclick="checkVar()">
+      Try it
+  </button>
+  
+    <p id="gfg"></p>
+  
+    <script>
+        function checkVar() {
+            if (typeof variable === "undefined") {   
+                string = "Variable is undefined";
+            } else {   
+                string = "Variable is defined";
+            }
+            document.getElementById("gfg").innerHTML = 
+              string;
+        }
+    </script>
+  
+</body>
+  
+</html>
